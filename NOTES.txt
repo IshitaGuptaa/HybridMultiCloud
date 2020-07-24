@@ -1,0 +1,10 @@
+I am using RHEL7.5 for project
+
+STEP1: Install Terraform
+  	command: yum install wget unzip
+	
+	command: sudo wget https://releases.hashicorp.com/terraform/0.12.28/terraform_0.12.28_linux_amd64.zip
+
+	command: sudo unzip ./terraform_0.12.28_linux_amd64.zip -d /usr/local/bin
+
+	command: terraform -v
